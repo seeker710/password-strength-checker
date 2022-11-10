@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/58bc1bf719.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navigator">
+        <div class="title">
+            <i class="fa-solid fa-shield-halved fa-2x"></i>
+            <h1>Password Biceps</h1>
+        </div>
+        <div class="links">
+            <h3><a href="index.html#tips-table">Tips</a></h3>
+            <h3><a href="index.html#footer">About me</a></h3>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="text">
+            <h1>HOW SECURE IS YOUR PASSWORD?</h1>
+            <p>We can help you find out if your password is easy to hack.</p>
+        </div>
+
+        <div class="input">
+            <div id="password-view" onclick="showPassword()"><i class="fa-solid fa-lock fa-1x"></i></div>
+            <div class="editable"><input type="password" value="" placeholder="Type a password"
+                    onkeyup="checkCharacters()"></div>
+            <div class="submit" onclick="submitData()">SUBMIT</div>
+        </div>
+
+        <div class="indicator">
+            <div class="level" id="red"></div>
+            <div class="level" id="yellow"></div>
+            <div class="level" id="green"></div>
+        </div>
+
+        <div class="characters">
+            <div><span>0</span> characters</div>
+            <div class="char-info">
+                <span class="info-item"><span id="upper">&cross;</span>Upper case&nbsp;</span>
+                <span class="info-item"><span id="lower">&cross;</span>Lower case&nbsp;</span>
+                <span class="info-item"><span id="number">&cross;</span>Numbers&nbsp;</span>
+                <span class="info-item"><span id="symbol">&cross;</span>Symbols</span>
+            </div>
+        </div>
+
+        <div class="duration">
+            <p>It would take a computer about</p>
+            <div>
+                <h2>DURATION</h2>
+            </div>
+            <p>to crack your password</p>
+        </div>
+    </div>
+
+    <div id="tips-table">
+        <div id="header"><i class="fa-solid fa-file-shield"></i> &nbsp;Tips to Increase Your Privacy and Security on The
+            Internet</div>
+        <div class="tips">
+            <p>Common Password</p>
+            <p>Make sure your password is unique and something you would type. Commonly used passwords are very easy to
+                crack.</p>
+        </div>
+        <div class="tips">
+            <p>Too Short</p>
+            <p>For extra security, make sure your password has atleast 8 characters.</p>
+        </div>
+        <div class="tips">
+            <p>Names and Words</p>
+            <p>Although they are easy to remember, personal names and relevant increases the chances of having your
+                account compromised.</p>
+        </div>
+        <div class="tips">
+            <p>Symbols and Numbers</p>
+            <p>Add some variety to your password by using more than just one letters. Symbols and numbers will help to
+                make your password more secure.</p>
+        </div>
+        <div class="tips">
+            <p>Secure Your Data</p>
+            <p>Did you know that most online services, in their Terms and Conditions, reserve the right to reproduce and
+                distribute your data? No matter how strong your password may be, chances are you have granted access to
+                your personal information already. From now on, read the T&C carefully before agreeing!</p>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="icons"><a href="https://www.instagram.com/sagar_m710/" target="_blank "><i
+                    class="fa-brands fa-instagram"></i></a></div>
+        <div class="icons"><a href="https://github.com/seeker710" target="_blank"><i
+                    class="fa-brands fa-github-alt"></i></a></div>
+        <div class="icons"><a href="https://www.linkedin.com/in/sagar-mandal-751a66253/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a></div>
+    </div>
+    <div class="footer-text">Happy Coding!!!</div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
