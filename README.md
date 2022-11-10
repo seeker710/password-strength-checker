@@ -60,6 +60,12 @@ where:
 <p>
   The other quantity you need to know to compute your password's entropy is the <strong>password length</strong>. Nothing complicated here, you just need to count the characters. Continuing our example, both <em>incorrect</em> and <em>Incorrect</em> have 9 characters, <em>IncoRRect77</em> has 11 characters, and <em>Incorrect77$%&</em> has 14 characters.
 </p>
+<h2>Possible duration to crack password</h2>
+<p>The estimated duration of cracking a password based on entropy is expressed as:<p>
+<p align='center'><em>Duration = 2<sup>(entropy)</sup>/number of guesses per second</em></p>
+<p>
+  <strong>The number of guesses per second</strong> depends on various factors such as processor speed, software used as well as available wordlist. In this project, number of guesses per second is considered to be <em>1,000,000 passwords per second</em>.
+</p>
 <h2>Output</h2>
 <h3>Desktop version:</h3>
 ![image](https://user-images.githubusercontent.com/115873710/201053372-5ad7867b-cd4f-46b9-a020-6aa4b9dc2e3b.png)
