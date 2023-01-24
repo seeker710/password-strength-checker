@@ -68,6 +68,6 @@ where:
 </p>
 <h2>Output</h2>
 <h3>Desktop version:</h3>
-![image](https://user-images.githubusercontent.com/115873710/201053372-5ad7867b-cd4f-46b9-a020-6aa4b9dc2e3b.png)
+<img src="https://user-images.githubusercontent.com/115873710/201053372-5ad7867b-cd4f-46b9-a020-6aa4b9dc2e3b.png">
 <h3>Mobile version:</h3>
-![image](https://user-images.githubusercontent.com/115873710/201053870-4020c793-3f48-4128-8576-407936b6fedd.png)
+<img src="https://user-images.githubusercontent.com/115873710/201053870-4020c793-3f48-4128-8576-407936b6fedd.png">
